@@ -1,0 +1,15 @@
+* {
+    box-sizing:  border-box;
+}
+body{
+    display: flex;    
+    justify-content: center;
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+}

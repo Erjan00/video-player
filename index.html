@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="file://Users/Hp/Desktop/html.class/index.html" rel="stylesheer">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Делаем свой плеер!</h1>
+
+        <video width="500" height="500" poster="" id="video-player">
+            <source src="Edotensei.mp4" type="video/mp4">
+        </video>
+        <div>
+            <progress id="progress" max="100" value="0" style="width:80%; margin:0 auto;"></progress>
+        </div>
+        <div>
+            <p id="out">0</p>
+        </div>
+        <div><button id="play">Play</button></div>
+        <div><button id="pause">Pause</button></div>
+        <div><button id="stop">Stop</button></div>
+        <div><button id="speed-up">Быстрее</button></div>
+        <div><button id="speed-down">Медленнее</button></div>
+        <div><button id="speed-normal">Норма</button></div>
+        <div><input type="range" id="volume" min="0" max="100">Звук</div>    
+           
+
+        <h2>Мой курс Javascript</h2>
+
+    
+
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
